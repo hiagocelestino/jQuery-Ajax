@@ -1,7 +1,7 @@
 function consultaCep(){
     let cep = $('#cep').val();
-    let regexCepFul =  /^[0-9]{2}.[0-9]{3}-[0-9]{3}$/;
-    let regexCep =  /^[0-9]{5}-[0-9]{3}$/;
+    let regexCepFul = /^[0-9]{2}.[0-9]{3}-[0-9]{3}$/;
+    let regexCep = /^[0-9]{5}-[0-9]{3}$/;
     let regexNum = /^[0-9]{8}$/;
 
     if(regexCepFul.test(cep)){
